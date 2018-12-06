@@ -1,0 +1,5 @@
+each image has a 100x4 vector of bounding boxes pridictions
+save the the first row 1x4 and the ground truth 1x4 as a stacked vector
+use the imagedatagenerator from keras to generate the dataset for the student
+modify mobilenet to output 1x4 vector
+train
